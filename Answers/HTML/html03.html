@@ -7,7 +7,16 @@
     <!-- Taga atribūti vienmēr būs pie taga definīcijas / atverošā taga. -->
     <meta charset="UTF-8">
     <!-- vienam tagad drīkst būt vairāki atribūti! -->
-    <link rel="stylesheet" type="text/css" href="css03.css">
+    <!-- Valīds jautājums varētu būt:  -->
+    <!-- Kāpēc pie href="../CSS/css03.css" atribūta vērtības parādas divi punktiņi, slīpsvītras un CSS pirms izveidotā faila nosaukuma ? -->
+    <!-- Atbilde: -->
+    <!-- Šajā gadījuma man visi faili atrodas lokāli uz mana datora, HTML faili savā maītē, css faili savā mapītē. -->
+    <!-- Lai piekļūtu css failam es izmantoju relatīvo ceļu uz css failu. -->
+    <!-- Tātad, mana failu struktūra ir sekojoša: iekš mapītes Challenges atrodas trīs citas mapītes - CSS, HTML un JavaScript -->
+    <!-- Iekš katras no mapītēm atrodas tās mapītes respektīvie faili. -->
+    <!-- Lai no html faila nokļūtu līdz css failam ir jādara sekojoši soļi: jāpaiet vienu mapīti atpakaļ, jāieiet iekš CSS mapītes un tad jāatrod fails ar kuru vēlos savienoties. -->
+    <!-- Tātad, respektīvi, no ši HTML faila paejam vienu mapīti atpakaļ (../), tad ieejam iekš CSS mapītes (CSS/) un beigu beigās atrodam failu ar kuru savienoties (css03.css) -->
+    <link rel="stylesheet" type="text/css" href="../CSS/css03.css">
 </head>
 <body>
 <!-- Taga atribūti vienmēr būs pie taga definīcijas / atverošā taga - Starp leņķa iekavām, bet pēc paša taga nosaukuma -->

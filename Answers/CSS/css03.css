@@ -1,0 +1,51 @@
+/*
+
+CSS izmanto, lai stilizētu iepriekš izveidoto HTML.
+
+Ir vairāki veidi kā piekļūt kādam HTML elementam.
+
+Bet pirms tam starp CSS un HTML ir jāizveido saikne. (Skat. html03.html failu)
+
+Kad saikne ir izveidota pareizi, tad var sākt piekļūšanu kādam HTML elementam (tagam)
+
+Pirmais veids:
+html {
+
+}
+Ar šo veidu var piekļūt kādam HTML tagam pēc taga nosaukuma. Kā piemēram var izmantot: h1, p, input,
+Bet ar šo jābūt piesardzīgiem, jo piekļūstot elementam (tagam) ar šo metodi, tiks ietekmēti pilnīgi visi elementi (tagi) ar šādu nosaukumu.
+
+Otrais veids:
+.className {
+
+}
+Ar otro veidu piekļūst vienam vai vairākiem elementiem (tagiem).
+Ar . simbolu piekļūst kāda HTML elementa (taga) class atribūtam, kā rezultātā piekļūst visam šim elementam (tagam).
+
+Trešais veids:
+#identificator {
+
+}
+Ar šo veidu var piekļūt vienam vienīgam elementam, kuram HTML failā ir atribūts id un šī id atribūta vērtība ir vienāda ar nosaukumu pēc # simbola.
+Ar # simbolu piekļūst kāda HTML elementa (taga) identifikātoram, kā rezultātā piekļūst visam šim elementam (tagam).
+
+ */
+
+/*
+Lai CSS failā izveidotu komentāru - kodu kas netiks izpildīts - izmanto šādus simbolus => /* Tavs komentārs */
+
+/*
+
+CSS SINTAKSE
+
+Kā jau iepriekš minēts - ar css mums ir jāpiekļūst kādam HTML elementam (tagam), lai to varētu stilizēt.
+Kā jau iepriekš minēts - to var darīt vairākos veidos.
+
+Piemērā rādīšu kā piekļūt <body></body> HTML tagam, un kā nomainīt tā "background color"
+!!!!!  šādu sintaksi izmanto vienmēr, bet īašības kuras tiek mainītas var atšķīrties. Ja vēlies uzzināt vairāk par īpašīb;am un to vērtībām skat: https://qhmit.com/css/properties/
+Uzklikšķinot uz kādas īpašības tiks parādīts piemērs. Izmanto šo adresi un uzzini vairāk par visu CSS saistīto. !!!!!
+
+*/
+body{
+    background-color: purple;
+}
